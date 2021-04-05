@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:orientation="vertical">
+
+
+   <EditText
+       android:id="@+id/et_nama"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="100dp"
+       android:hint="Nama"/>
+
+    <EditText
+        android:id="@+id/et_squad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Squad"/>
+
+    <EditText
+        android:id="@+id/et_angkatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Angkatan"/>
+
+    <EditText
+        android:id="@+id/et_hobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hobi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSend"
+        android:text="SEND"/>
+
+</LinearLayout>
